@@ -1,2 +1,2 @@
 # unilins-compiladores
-Reconhecedor Lexico puro sem o uso de bibliotecas
+Reconhecedor Lexico escrito em java puro sem o uso de bibliotecas
