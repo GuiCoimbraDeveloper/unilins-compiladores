@@ -1,0 +1,12 @@
+D:\Java\alguma-gerador\src\main\java\com\gui\compiladores\alguma\gerador\AlgumaGeradorPCodigo.java
+D:\Java\alguma-gerador\target\generated-sources\antlr4\com\gui\compiladores\alguma\gerador\AlgumaBaseListener.java
+D:\Java\alguma-gerador\target\generated-sources\antlr4\com\gui\compiladores\alguma\gerador\AlgumaParser.java
+D:\Java\alguma-gerador\src\main\java\com\gui\compiladores\alguma\gerador\TabelaDeSimbolos.java
+D:\Java\alguma-gerador\src\main\java\com\gui\compiladores\alguma\gerador\AlgumaSemanticoUtils.java
+D:\Java\alguma-gerador\target\generated-sources\antlr4\com\gui\compiladores\alguma\gerador\AlgumaBaseVisitor.java
+D:\Java\alguma-gerador\src\main\java\com\gui\compiladores\alguma\gerador\AlgumaSemantico.java
+D:\Java\alguma-gerador\target\generated-sources\antlr4\com\gui\compiladores\alguma\gerador\AlgumaLexer.java
+D:\Java\alguma-gerador\target\generated-sources\antlr4\com\gui\compiladores\alguma\gerador\AlgumaVisitor.java
+D:\Java\alguma-gerador\src\main\java\com\gui\compiladores\alguma\gerador\AlgumaGeradorC.java
+D:\Java\alguma-gerador\src\main\java\com\gui\compiladores\alguma\gerador\Principal.java
+D:\Java\alguma-gerador\target\generated-sources\antlr4\com\gui\compiladores\alguma\gerador\AlgumaListener.java
