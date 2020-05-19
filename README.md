@@ -9,6 +9,7 @@ Exercicio utilizando o video do professor daniel passado pelo professor moraes p
 - ![Diretorio](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/diretorios.png)
 
 # Resultado do analisador lexico
+### Análise léxica é o processo de analisar a entrada de linhas de caracteres e produzir uma sequência de símbolos chamado "símbolos léxicos", ou somente "símbolos", que podem ser manipulados mais facilmente por um parser.
 - Após compilar o programa ira gerar uma pasta chamada "target" nela terá o arquivo JAR que é o programa compilado
 ### para executar o programa voce deve executar o seguinte comando
 - java -jar "D:\Java\JavaApplication4\alguma-lexico\target\alguma-lexico-1.0-SNAPSHOT-jar-with-dependencies.jar" "C:\Users\guilh\OneDrive\Área de Trabalho\programa.txt"
@@ -16,6 +17,7 @@ Exercicio utilizando o video do professor daniel passado pelo professor moraes p
 - ![Exemplo1](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/exemplo1.png)
 
 # Resultado do analisador sintático
+### segunda fase da compilação onde se analisa uma sequência que foi dada entrada para verificar sua estrutura gramatical segundo uma determinada gramática formal.
 - Após compilar o programa ira gerar uma pasta chamada "target" nela terá o arquivo JAR que é o programa compilado
 ### para executar o programa voce deve executar o seguinte comando
 - java -jar "D:\Java\AlgumaParserSin\dist\AlgumaParserSin.jar" "C:\Users\guilh\OneDrive\Área de Trabalho\programa.txt"
@@ -23,6 +25,7 @@ Exercicio utilizando o video do professor daniel passado pelo professor moraes p
 - ![Exemplo2](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/exemplo2.png)
 
 # Resultado do analisador semântico
+### A análise semântica engloba duas tarefas principais: análise de contexto com geração de código e, verificação de erros em frases sintaticamente corretas.
 - Após compilar o programa ira gerar uma pasta chamada "target" nela terá o arquivo JAR que é o programa compilado
 ### para executar o programa voce deve executar o seguinte comando
 - java -jar "D:\Java\alguma-semantico\target\alguma-semantico-1.0-SNAPSHOT-jar-with-dependencies.jar" "C:\Users\guilh\OneDrive\Área de Trabalho\programa.txt"
