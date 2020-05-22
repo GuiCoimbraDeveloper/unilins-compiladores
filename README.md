@@ -5,16 +5,69 @@ Exercicio utilizando o video do professor daniel passado pelo professor moraes p
 - Primeiramente voce deve ter instalado em seu computador o ambiente de desenvolvimento JAVA.
 - É necessario ter uma ide para facilitar o uso dos arquivos java  no exemplo foi utilizando "Apache NetBeans IDE 11.3"
 - Alguns Exemplos utilizam o Antlr ou seja é necessario utilizar algum  sistema de automação de compilação nos exercicios foi utilizado o Maven
-- Os projetos com antlr obrigatoriamente devem ter uma pasta paralela no sistem de arquivos do projeto chamada antlr4 com o mesmo caminho q a classe principal
-- ![Diretorio](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/diretorios.png)
 
-Para criar um projeto maven no java:
-- 1 criar um projeto java com maven deve-se clicar em criar novo projeto
+# Para criar um projeto maven no java:
+- 1 criar um projeto java com maven deve-se clicar em criar novo projeto.
 - ![Criar0](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/criar0.png)
-- 2 preencher as informações como nome do seu projeto, e o nome do seu pacote
+- 2 selecionar a opção java with maven e selecionar java application.
 - ![Criar1](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/criar1.png)
-
-
+- 3 preencher as informações como nome do seu projeto, local que será salvo e o nome do seu pacote.
+- ![Criar2](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/criar2.png)
+- 4 Ao criar o projeto voce deve ir  project file e abrir o arquivo pom.xml
+- ![Criar3](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/criar3.png)
+- 5 Adicionar a referencia do antlr no arquivo pom.xml abaixo de <packaging>jar</packaging> e acima de <properties>
+<build>
+        <plugins>
+            <plugin>
+                <groupId>org.antlr</groupId>
+                <artifactId>antlr4-maven-plugin</artifactId>
+                <version>4.8</version>
+                <configuration>
+                    <visitor>true</visitor>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>antlr</id>
+                        <goals>
+                            <goal>antlr4</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>nome.do.seu.pacotete.classe.Principal</mainClass>
+                        </manifest>
+                    </archive>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>make-assembly</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+- 6 Os projetos com antlr obrigatoriamente devem ter uma pasta paralela no sistema de arquivos do projeto chamada antlr4 com o mesmo caminho q a classe principal ps:pegue o arquivo g4 do repositorio ou crie o seu proprio
+- ![Diretorio](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/diretorios.png)
+- 7 para deixar o sistema de arquivo no netbeans igual ao da imagem voce deve trocar no canto superior de Projects para Files
+- ![Uteis](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/uteis1.png)
+- Caso seu Netbeans nao possua o plugin do antlr basta ir em tools-> Plugins
+- ![Uteis2](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/uteis2.png)
+- Clicar em Available Plugins e na Caixa de Pesquisar "search" digitar antlr. Checar o plugin e clicar em instalar
+- ![Uteis3](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/uteis3.png)
+  Com tudo pronto copie os arquivs e ALTERE o nome do pacote de cada arquivo para o seu nome de pacotece do seu projeto
+  
 # Resultado do analisador lexico
 ### Análise léxica é o processo de analisar a entrada de linhas de caracteres e produzir uma sequência de símbolos chamado "símbolos léxicos ou lexemas", ou somente "símbolos", que podem ser manipulados mais facilmente por um parser.
 - Após compilar o programa ira gerar uma pasta chamada "target" nela terá o arquivo JAR que é o programa compilado
