@@ -7,15 +7,15 @@ Exercicio utilizando o video do professor daniel passado pelo professor moraes p
 - Alguns Exemplos utilizam o Antlr ou seja é necessario utilizar algum  sistema de automação de compilação nos exercicios foi utilizado o Maven
 
 # Para criar um projeto maven no java:
-- 1 criar um projeto java com maven deve-se clicar em criar novo projeto.
-  ![Criar0](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/criar0.png)
-- 2 selecionar a opção java with maven e selecionar java application.
-  ![Criar1](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/criar1.png)
-- 3 preencher as informações como nome do seu projeto, local que será salvo e o nome do seu pacote.
+1. criar um projeto java com maven deve-se clicar em criar novo projeto.
+- ![Criar0](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/criar0.png)
+2. selecionar a opção java with maven e selecionar java application.
+- ![Criar1](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/criar1.png)
+3. preencher as informações como nome do seu projeto, local que será salvo e o nome do seu pacote.
 - ![Criar2](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/criar2.png)
-- 4 Ao criar o projeto voce deve ir  project file e abrir o arquivo pom.xml
+4. Ao criar o projeto voce deve ir  project file e abrir o arquivo pom.xml
 - ![Criar3](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/criar3.png)
-- 5 Adicionar a referencia do antlr no arquivo pom.xml abaixo de <packaging>jar</packaging> e acima de <properties>
+5. Adicionar a referencia do antlr no arquivo pom.xml abaixo de <packaging>jar</packaging> e acima de <properties>
 <build>
         <plugins>
             <plugin>
