@@ -102,10 +102,13 @@ Exercicio utilizando o video do professor daniel passado pelo professor moraes p
 - java -jar "C:\Users\guilh\.m2\repository\com\gui\compiladores\alguma-gerador\1.0-SNAPSHOT\alguma-gerador-1.0-SNAPSHOT-jar-with-dependencies.jar" "C:\Users\guilh\OneDrive\Área de Trabalho\programa.txt" "C:\Users\guilh\OneDrive\Área de Trabalho\saida.c" "C:\Users\guilh\OneDrive\Área de Trabalho\saidaP.p"
 - **voce deve substituir o primeiro parametro pelo caminho do seu jar e o segundo parametro pelo arquivo escrito na linguagem alguma o terceiro parametro é a saida do arquivo na linguagem C e o quarto o arquivo em P linguagem (linguagem de maquina)**
 - **No gerador de código ele irá avisar se houver erro lexico, sintatico e semantico pelo console**
-- ![Exemplo4](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/exemplo4.png)
+
+![Exemplo4](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/exemplo4.png)
 
 ### Exemplo de codigo C gerado pelo gerador de codigo
-- ![Exemplo5](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/exemplo5.png)
+
+![Exemplo5](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/exemplo5.png)
 
 ### Exemplo de P codigo  gerado pelo gerador de codigo
-- ![Exemplo6](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/exemplo6.png)
+
+![Exemplo6](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/exemplo6.png)
