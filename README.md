@@ -15,8 +15,8 @@ Exercicio utilizando o video do professor daniel passado pelo professor moraes p
 - ![Criar2](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/criar2.png)
 4. Ao criar o projeto voce deve ir  project file e abrir o arquivo pom.xml
 - ![Criar3](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/criar3.png)
-5. Adicionar a referencia do antlr no arquivo pom.xml abaixo de <packaging>jar</packaging> e acima de <properties>
-<build>
+5. Adicionar a referencia do antlr no arquivo pom.xml abaixo de ```<packaging>jar</packaging> e acima de <properties>```
+```<build>
         <plugins>
             <plugin>
                 <groupId>org.antlr</groupId>
@@ -57,7 +57,7 @@ Exercicio utilizando o video do professor daniel passado pelo professor moraes p
                 </executions>
             </plugin>
         </plugins>
-    </build>
+    </build>```
 - 6 Os projetos com antlr obrigatoriamente devem ter uma pasta paralela no sistema de arquivos do projeto chamada antlr4 com o mesmo caminho q a classe principal ps:pegue o arquivo g4 do repositorio ou crie o seu proprio
 - ![Diretorio](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/diretorios.png)
 - 7 para deixar o sistema de arquivo no netbeans igual ao da imagem voce deve trocar no canto superior de Projects para Files
