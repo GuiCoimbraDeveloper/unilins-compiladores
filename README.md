@@ -16,9 +16,13 @@ Exercicio utilizando o video do professor daniel passado pelo professor moraes p
 ![Criar1](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/criar1.png)
 
 3. preencher as informações como nome do seu projeto, local que será salvo e o nome do seu pacote.
-- ![Criar2](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/criar2.png)
+
+![Criar2](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/criar2.png)
+
 4. Ao criar o projeto voce deve ir  project file e abrir o arquivo pom.xml
-- ![Criar3](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/criar3.png)
+
+![Criar3](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/criar3.png)
+
 5. Adicionar a referencia do antlr no arquivo pom.xml abaixo de ```<packaging>jar</packaging>``` e acima de ```<properties>```
 ```<build>
         <plugins>
@@ -64,16 +68,22 @@ Exercicio utilizando o video do professor daniel passado pelo professor moraes p
     </build>
 ```
 6. Os projetos com antlr obrigatoriamente devem ter uma pasta paralela no sistema de arquivos do projeto chamada antlr4 com o mesmo caminho q a classe principal ps:pegue o arquivo g4 do repositorio ou crie o seu proprio
-- ![Diretorio](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/diretorios.png)
+
+![Diretorio](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/diretorios.png)
+
 7. para deixar o sistema de arquivo no netbeans igual ao da imagem voce deve trocar no canto superior de Projects para Files
 
 ![Uteis](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/uteis1.png)
 
 - Caso seu Netbeans nao possua o plugin do antlr basta ir em tools-> Plugins
-- ![Uteis2](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/uteis2.png)
+
+![Uteis2](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/uteis2.png)
+
 - Clicar em Available Plugins e na Caixa de Pesquisar "search" digitar antlr. Checar o plugin e clicar em instalar
-- ![Uteis3](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/uteis3.png)
-  Com tudo pronto copie os arquivs e ALTERE o nome do pacote de cada arquivo para o seu nome de pacotece do seu projeto
+
+![Uteis3](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/uteis3.png)
+
+Com tudo pronto copie os arquivs e ALTERE o nome do pacote de cada arquivo para o seu nome de pacotece do seu projeto
   
 # Resultado do analisador lexico
 ### Análise léxica é o processo de analisar a entrada de linhas de caracteres e produzir uma sequência de símbolos chamado "símbolos léxicos ou lexemas", ou somente "símbolos", que podem ser manipulados mais facilmente por um parser.
@@ -81,7 +91,8 @@ Exercicio utilizando o video do professor daniel passado pelo professor moraes p
 ### para executar o programa voce deve executar o seguinte comando
 - java -jar "D:\Java\JavaApplication4\alguma-lexico\target\alguma-lexico-1.0-SNAPSHOT-jar-with-dependencies.jar" "C:\Users\guilh\OneDrive\Área de Trabalho\programa.txt"
 - **voce deve substituir o primeiro parametro pelo caminho do seu jar e o segundo parametro pelo arquivo escrito na linguagem alguma**
-- ![Exemplo1](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/exemplo1.png)
+
+![Exemplo1](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/exemplo1.png)
 
 # Resultado do analisador sintático
 ### segunda fase da compilação onde se analisa uma sequência que foi dada entrada para verificar sua estrutura gramatical segundo uma determinada gramática formal.
@@ -89,7 +100,8 @@ Exercicio utilizando o video do professor daniel passado pelo professor moraes p
 ### para executar o programa voce deve executar o seguinte comando
 - java -jar "D:\Java\AlgumaParserSin\dist\AlgumaParserSin.jar" "C:\Users\guilh\OneDrive\Área de Trabalho\programa.txt"
 - **voce deve substituir o primeiro parametro pelo caminho do seu jar e o segundo parametro pelo arquivo escrito na linguagem alguma**
-- ![Exemplo2](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/exemplo2.png)
+
+![Exemplo2](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/exemplo2.png)
 
 # Resultado do analisador semântico
 ### A análise semântica engloba duas tarefas principais: análise de contexto com geração de código e, verificação de erros em frases sintaticamente corretas resumindo o analisador semantico vai verificar nome de variaveis, verifica o escopo se existe a variavel confere tipos de dados etc.
