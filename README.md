@@ -8,8 +8,15 @@ Exercicio utilizando o video do professor daniel passado pelo professor moraes p
 - Os projetos com antlr obrigatoriamente devem ter uma pasta paralela no sistem de arquivos do projeto chamada antlr4 com o mesmo caminho q a classe principal
 - ![Diretorio](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/diretorios.png)
 
+Para criar um projeto maven no java:
+- 1 criar um projeto java com maven deve-se clicar em criar novo projeto
+- ![Criar0](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/criar0.png)
+- 2 preencher as informações como nome do seu projeto, e o nome do seu pacote
+- ![Criar1](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/criar1.png)
+
+
 # Resultado do analisador lexico
-### Análise léxica é o processo de analisar a entrada de linhas de caracteres e produzir uma sequência de símbolos chamado "símbolos léxicos", ou somente "símbolos", que podem ser manipulados mais facilmente por um parser.
+### Análise léxica é o processo de analisar a entrada de linhas de caracteres e produzir uma sequência de símbolos chamado "símbolos léxicos ou lexemas", ou somente "símbolos", que podem ser manipulados mais facilmente por um parser.
 - Após compilar o programa ira gerar uma pasta chamada "target" nela terá o arquivo JAR que é o programa compilado
 ### para executar o programa voce deve executar o seguinte comando
 - java -jar "D:\Java\JavaApplication4\alguma-lexico\target\alguma-lexico-1.0-SNAPSHOT-jar-with-dependencies.jar" "C:\Users\guilh\OneDrive\Área de Trabalho\programa.txt"
