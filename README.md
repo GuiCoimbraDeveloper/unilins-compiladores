@@ -88,7 +88,7 @@ Exercicio utilizando o video do professor daniel passado pelo professor moraes p
 - ![Exemplo2](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/exemplo2.png)
 
 # Resultado do analisador semântico
-### A análise semântica engloba duas tarefas principais: análise de contexto com geração de código e, verificação de erros em frases sintaticamente corretas.
+### A análise semântica engloba duas tarefas principais: análise de contexto com geração de código e, verificação de erros em frases sintaticamente corretas resumindo o analisador semantico vai verificar nome de variaveis, verifica o escopo se existe a variavel confere tipos de dados etc.
 - Após compilar o programa ira gerar uma pasta chamada "target" nela terá o arquivo JAR que é o programa compilado
 ### para executar o programa voce deve executar o seguinte comando
 - java -jar "D:\Java\alguma-semantico\target\alguma-semantico-1.0-SNAPSHOT-jar-with-dependencies.jar" "C:\Users\guilh\OneDrive\Área de Trabalho\programa.txt"
