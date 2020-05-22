@@ -15,7 +15,7 @@ Exercicio utilizando o video do professor daniel passado pelo professor moraes p
 - ![Criar2](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/criar2.png)
 4. Ao criar o projeto voce deve ir  project file e abrir o arquivo pom.xml
 - ![Criar3](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/criar3.png)
-5. Adicionar a referencia do antlr no arquivo pom.xml abaixo de ```<packaging>jar</packaging> e acima de <properties>```
+5. Adicionar a referencia do antlr no arquivo pom.xml abaixo de ```<packaging>jar</packaging>``` e acima de ```<properties>```
 ```<build>
         <plugins>
             <plugin>
