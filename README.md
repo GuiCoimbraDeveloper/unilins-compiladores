@@ -59,10 +59,12 @@ Exercicio utilizando o video do professor daniel passado pelo professor moraes p
         </plugins>
     </build>
 ```
-- 6 Os projetos com antlr obrigatoriamente devem ter uma pasta paralela no sistema de arquivos do projeto chamada antlr4 com o mesmo caminho q a classe principal ps:pegue o arquivo g4 do repositorio ou crie o seu proprio
+6. Os projetos com antlr obrigatoriamente devem ter uma pasta paralela no sistema de arquivos do projeto chamada antlr4 com o mesmo caminho q a classe principal ps:pegue o arquivo g4 do repositorio ou crie o seu proprio
 - ![Diretorio](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/diretorios.png)
-- 7 para deixar o sistema de arquivo no netbeans igual ao da imagem voce deve trocar no canto superior de Projects para Files
-- ![Uteis](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/uteis1.png)
+7. para deixar o sistema de arquivo no netbeans igual ao da imagem voce deve trocar no canto superior de Projects para Files
+
+![Uteis](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/uteis1.png)
+
 - Caso seu Netbeans nao possua o plugin do antlr basta ir em tools-> Plugins
 - ![Uteis2](https://github.com/GuiCoimbraDeveloper/unilins-compiladores/blob/master/imagens/uteis2.png)
 - Clicar em Available Plugins e na Caixa de Pesquisar "search" digitar antlr. Checar o plugin e clicar em instalar
